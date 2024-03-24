@@ -1,0 +1,70 @@
+/*
+=========================================================
+Name : Header.css
+Assignment : Assignment 4
+Author(s) : Rayyan Ahmed, Muhammed Umar Khan
+Submission : Mar 24, 2024
+Description : css stlying for the header component
+=========================================================
+*/
+
+
+.header-container {
+  padding: 20px;
+  background-color: #ffffff; /* Change the background color as needed */
+}
+
+.header-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px; /* Add margin at the bottom to separate from navigation links */
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  margin-right: 20px; /* Add margin to separate from company name */
+}
+
+.company-name {
+  font-size: 18px;
+}
+
+.nav-links ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  text-align: center; /* Center align navigation links */
+}
+
+.nav-links li {
+  display: inline;
+  margin: 0; /* Remove default margin */
+}
+
+.nav-links li:first-child {
+  float: left;
+}
+
+.nav-links li:last-child {
+  float: right; /* Push the last link to the far right */
+}
+
+.nav-links a {
+  font-size: 16px;
+}
+
+.nav-links a:hover {
+  color: #007bff; /* Change the hover color as needed */
+}
+
+.logo {
+    width: 50px; /* Set the width to 50px */
+    height: 50px; /* Set the height to 50px */
+    margin-right: 20px; /* Add margin to separate from company name */
+  }
+  
+  .company-name {
+    font-size: 18px;
+  }
