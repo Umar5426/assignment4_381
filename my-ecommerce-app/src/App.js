@@ -9,18 +9,21 @@ Description : App file for my-ecommerce-app
 */
 
 import React from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Homepage from '../../my-ecommerce-app/src/components/Homepage.js';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import Homepage from './components/Homepage';
+import Productpage from './components/ProductPage';
+import './App.css';
 
-function App() {
+const App = () => {
   return (
     <Router>
       <Routes>
         <Route path="/" element={<Homepage />} />
-        {/* Add more routes here */}
+        <Route path="/products" element={<Productpage />} />
+        {/* Add other routes as needed */}
       </Routes>
     </Router>
   );
-}
+};
 
 export default App;
