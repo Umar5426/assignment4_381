@@ -12,6 +12,7 @@ Description : HomeMainSection component for my-ecommerce-app
 import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import reviewsData from '../data/reviews';
+import './HomeMainSection.css';
 
 function HomeMainSection() {
   const [reviews, setReviews] = useState([]);

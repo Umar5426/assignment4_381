@@ -1,0 +1,19 @@
+/*
+=========================================================
+Name : Footer.css
+Assignment : Assignment 4
+Author(s) : Rayyan Ahmed, Muhammed Umar Khan
+Submission : Mar 24, 2024
+Description : Styling for the footer component
+=========================================================
+*/
+
+.footer-container {
+    padding: 20px;
+  }
+  
+  .footer-text {
+    font-size: 14px; /* Set font size */
+    color: #333333; /* Set text color */
+  }
+  

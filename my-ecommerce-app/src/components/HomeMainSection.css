@@ -1,0 +1,62 @@
+/*
+=========================================================
+Name : HomeMainSection.css
+Assignment : Assignment 4
+Author(s) : Rayyan Ahmed, Muhammed Umar Khan
+Submission : Mar 24, 2024
+Description : Styling for the HomeMainSection component
+=========================================================
+*/
+
+.home-main-section {
+    padding: 20px;
+  }
+  
+  .section-title {
+    font-size: 24px; 
+    font-weight: bold; 
+    margin-bottom: 20px;
+  }
+  
+  .about-us-section {
+    margin-bottom: 40px; /* Add margin at the bottom of about us section */
+  }
+  
+  .shop-now-button {
+    background-color: black; /* Set background color for shop now button */
+    color: #ffffff; /* Set text color for shop now button */
+    padding: 10px 20px; /* Add padding to shop now button */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Add border radius */
+    font-size: 16px; /* Set font size for shop now button */
+    text-decoration: none; /* Remove underline from button */
+    cursor: pointer; /* Add cursor pointer */
+  }
+  
+  .shop-now-button:hover {
+    background-color: #0056b3; /* Change background color on hover */
+  }
+  
+  .customer-reviews-section {
+    margin-top: 40px; /* Add margin at the top of customer reviews section */
+  }
+  
+  .customer-review {
+    border: 1px solid #cccccc; /* Add border to each customer review */
+    border-radius: 5px; /* Add border radius */
+    padding: 20px; /* Add padding to each customer review */
+    margin-bottom: 20px; /* Add margin at the bottom of each customer review */
+  }
+  
+  .customer-name {
+    font-weight: bold; /* Set font weight for customer name */
+  }
+  
+  .customer-rating {
+    color: #ffc107; /* Set color for customer rating */
+  }
+  
+  .customer-review-content {
+    margin-top: 10px; /* Add margin at the top of customer review content */
+  }
+  

@@ -9,6 +9,7 @@ Description : Footer component for my-ecommerce-app
 */
 
 import React from 'react';
+import './Footer.css';
 
 function Footer(){
     return (
