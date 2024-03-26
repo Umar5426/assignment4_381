@@ -10,7 +10,7 @@ Description : Header component for my-ecommerce-app
 
 import React from 'react';
 import { Link } from 'react-router-dom';
-import './Header.css'; // Import the CSS file for styling
+
 
 function Header() {
   return (

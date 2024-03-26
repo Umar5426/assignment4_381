@@ -7,6 +7,7 @@ Submission : Mar 24, 2024
 Description : Styling for the HomeMainSection component
 =========================================================
 */
+/*
 
 .home-main-section {
     padding: 20px;
@@ -19,44 +20,47 @@ Description : Styling for the HomeMainSection component
   }
   
   .about-us-section {
-    margin-bottom: 40px; /* Add margin at the bottom of about us section */
+    margin-bottom: 40px; 
   }
+
   
   .shop-now-button {
-    background-color: black; /* Set background color for shop now button */
-    color: #ffffff; /* Set text color for shop now button */
-    padding: 10px 20px; /* Add padding to shop now button */
-    border: none; /* Remove border */
-    border-radius: 5px; /* Add border radius */
-    font-size: 16px; /* Set font size for shop now button */
-    text-decoration: none; /* Remove underline from button */
-    cursor: pointer; /* Add cursor pointer */
+    background-color: black; 
+    color: #ffffff; 
+    padding: 10px 20px; 
+    border: none;
+    border-radius: 5px; 
+    font-size: 16px; 
+    text-decoration: none; 
+    cursor: pointer; 
   }
   
   .shop-now-button:hover {
-    background-color: #0056b3; /* Change background color on hover */
+    background-color: #0056b3;
   }
   
   .customer-reviews-section {
-    margin-top: 40px; /* Add margin at the top of customer reviews section */
+    margin-top: 40px; 
   }
   
   .customer-review {
-    border: 1px solid #cccccc; /* Add border to each customer review */
-    border-radius: 5px; /* Add border radius */
-    padding: 20px; /* Add padding to each customer review */
-    margin-bottom: 20px; /* Add margin at the bottom of each customer review */
+    border: 1px solid #cccccc; 
+    border-radius: 5px; 
+    padding: 20px; 
+    margin-bottom: 20px; 
   }
   
   .customer-name {
-    font-weight: bold; /* Set font weight for customer name */
+    font-weight: bold; 
   }
   
   .customer-rating {
-    color: #ffc107; /* Set color for customer rating */
+    color: #ffc107; 
   }
   
   .customer-review-content {
-    margin-top: 10px; /* Add margin at the top of customer review content */
+    margin-top: 10px; 
   }
+
+  */
   

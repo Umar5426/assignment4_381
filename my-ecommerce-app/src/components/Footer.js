@@ -9,14 +9,13 @@ Description : Footer component for my-ecommerce-app
 */
 
 import React from 'react';
-import './Footer.css';
 
-function Footer(){
-    return (
-        <footer>
-          <p>&copy; {new Date().getFullYear()} Your Company</p>
-        </footer>
-      );
+function Footer() {
+  return (
+    <footer>
+      <p>&copy; {new Date().getFullYear()} Your Company</p>
+    </footer>
+  );
 };
 
 export default Footer;

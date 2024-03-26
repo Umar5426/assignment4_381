@@ -8,23 +8,23 @@ Description : css stlying for the header component
 =========================================================
 */
 
-
+/*
 .header-container {
   padding: 20px;
-  background-color: #ffffff; /* Change the background color as needed */
+  background-color: #ffffff;
 }
 
 .header-top {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 20px; /* Add margin at the bottom to separate from navigation links */
+  margin-bottom: 20px; 
 }
 
 .logo {
   font-size: 24px;
   font-weight: bold;
-  margin-right: 20px; /* Add margin to separate from company name */
+  margin-right: 20px; 
 }
 
 .company-name {
@@ -35,12 +35,12 @@ Description : css stlying for the header component
   list-style-type: none;
   padding: 0;
   margin: 0;
-  text-align: center; /* Center align navigation links */
+  text-align: center; 
 }
 
 .nav-links li {
   display: inline;
-  margin: 0; /* Remove default margin */
+  margin: 0; 
 }
 
 .nav-links li:first-child {
@@ -48,7 +48,7 @@ Description : css stlying for the header component
 }
 
 .nav-links li:last-child {
-  float: right; /* Push the last link to the far right */
+  float: right; 
 }
 
 .nav-links a {
@@ -56,15 +56,17 @@ Description : css stlying for the header component
 }
 
 .nav-links a:hover {
-  color: #007bff; /* Change the hover color as needed */
+  color: #007bff; 
 }
 
 .logo {
-    width: 50px; /* Set the width to 50px */
-    height: 50px; /* Set the height to 50px */
-    margin-right: 20px; /* Add margin to separate from company name */
+    width: 50px; 
+    height: 50px; 
+    margin-right: 20px; 
   }
   
   .company-name {
     font-size: 18px;
   }
+
+  */
